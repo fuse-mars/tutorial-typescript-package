@@ -29,9 +29,9 @@ const runner = perpetual.defaultRunner();
 runner.setDelay();
 let task = function(input) { console.log('input is' + input); };
 let args = [100];
-runner.addTask(task, args);
-runner.start();
-runner.stop();
+let task_id = runner.addTask(task, args);
+runner.start(task_id);
+runner.stop(task_id);
 ```
 Behind the scene, starting a task is the same as running the function in this form `(function(input){ console.log('input is' + input); })(100);`.
 
