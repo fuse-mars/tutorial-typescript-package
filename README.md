@@ -24,7 +24,14 @@ A task runner that periodically execute a given javascript function. We call thi
 # Steps
 * Download typescript
 * Download gulp
-* Project setup
+* Project setup 
+```
+root
+  - lib // javascript code ( translated from typescript )
+  - src // writen typescript code
+  - package.json
+  - gulpfile.js
+```
 * 
 
 
