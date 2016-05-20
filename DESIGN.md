@@ -23,7 +23,7 @@ A task runner that periodically execute a given javascript function. We call thi
 
 # Usage and Thinking
 There is a default runner that only executes a "one" javascript function given as input
-```
+```javascript
 const perpetual = require('perpetual');
 const runner = perpetual.defaultRunner();
 runner.setDelay();
