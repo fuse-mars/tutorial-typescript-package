@@ -1,0 +1,27 @@
+{
+  "name": "perpetual",
+  "version": "1.0.0",
+  "description": "A task runner that periodically execute a given javascript function",
+  "main": "compiled/index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test -t tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuse-mars/tutorial-typescript-package.git"
+  },
+  "keywords": [
+    "runner",
+    "typescript"
+  ],
+  "author": "Marcellin Nshimiyimana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuse-mars/tutorial-typescript-package/issues"
+  },
+  "homepage": "https://github.com/fuse-mars/tutorial-typescript-package#readme"
+}
