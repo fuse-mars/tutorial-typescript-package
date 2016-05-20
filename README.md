@@ -27,7 +27,7 @@ A task runner that periodically execute a given javascript function. We call thi
 * Project setup 
 ```
 root
-  - lib // javascript code ( translated from typescript )
+  - compiled // javascript code ( translated from typescript )
   - src // writen typescript code
   - package.json
   - gulpfile.js
